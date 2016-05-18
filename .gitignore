@@ -1,0 +1,4 @@
+/buildcb
+/lib/*
+!/lib/folder.txt
+
