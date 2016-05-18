@@ -4,12 +4,13 @@ This is a small generic wxWidgets generic control that shows a vertical column o
 
 ![Android example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/android.jpg "Android example") 
 
-Features
-* can be drawn as though it should attach on the left
+### Screenshots
 ![Listbox example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/list.png "Listbox example") 
-
-* or the right
 ![panel example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/panel.png "panel example")
+
+### Features
+* can be drawn as though it should attach on the left
+* or the right
 * can use an arbitrary alphabet
 * can use an arbitrary ordering of its alphabet
 * will show as many letters as possible in the space 
@@ -21,10 +22,10 @@ Features
  + separator color
  + text color
 
-### requirements
+### Requirements
 * wxWidgets (3.0 or later)
 
-### license
+### License
 wxWindows Library Licence, Version 3.1
 
 
