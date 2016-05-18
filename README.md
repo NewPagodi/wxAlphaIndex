@@ -13,7 +13,7 @@ This is a small generic wxWidgets generic control that shows a vertical column o
 * or the right
 * can use an arbitrary alphabet
 * can use an arbitrary ordering of its alphabet
-* will show as many letters as possible in the space 
+* will show as many letters as possible in the space available
 * the letters will be highlighted as the mouse cursor moves over them
 * the appearance can be customized to help it blend in with the control it's paired with
  + background
