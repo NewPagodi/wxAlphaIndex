@@ -21,5 +21,10 @@ Features
  + separator color
  + text color
 
+### requirements
+* wxWidgets (3.0 or later)
+
+### license
+wxWindows Library Licence, Version 3.1
 
 
