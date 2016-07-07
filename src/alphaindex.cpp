@@ -220,9 +220,15 @@ void wxAlphaIndex::AddDefaultLetters()
     RealizeLetters();
 }
 
+const std::vector<wxString>& wxAlphaIndex::GetLetters()
+{
+    return letters;
+}
+
 void wxAlphaIndex::OnPaint( wxPaintEvent& WXUNUSED(event) )
 {
     wxPaintDC(this).DrawBitmap(m_cachedBG,0,0,true);
+    m_overlay.Reset();
 }
 
 void wxAlphaIndex::OnLeftUp( wxMouseEvent& event )
@@ -264,8 +270,8 @@ void wxAlphaIndex::OnMotion( wxMouseEvent& event )
     if( slot!=-1 && slot!=m_lastSlot )
     {
         wxClientDC dc( this );
-        wxDCOverlay overlaydc( m_overlay, &dc );
-        overlaydc.Clear();
+        wxDCOverlay dcoverlay( m_overlay, &dc );
+        dcoverlay.Clear();
 
         dc.SetTextForeground(m_hlTextColour);
         dc.SetBrush( wxBrush(m_hlColour) );
@@ -296,7 +302,6 @@ void wxAlphaIndex::OnLeaveWindow( wxMouseEvent& WXUNUSED(event) )
         wxClientDC dc( this );
         wxDCOverlay overlaydc( m_overlay, &dc );
         overlaydc.Clear();
-        //m_overlay.Reset();
     }
 
     m_lastSlot=-1;

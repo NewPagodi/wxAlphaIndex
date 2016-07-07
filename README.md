@@ -7,6 +7,7 @@ This is a small generic wxWidgets generic control that shows a vertical column o
 ### Screenshots
 ![Listbox example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/list.png "Listbox example") 
 ![panel example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/panel.png "panel example")
+<p>![contacts example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/contacts.png "contacts example")</p>
 
 ### Features
 * can be drawn as though it should attach on the left
@@ -27,5 +28,3 @@ This is a small generic wxWidgets generic control that shows a vertical column o
 
 ### License
 wxWindows Library Licence, Version 3.1
-
-

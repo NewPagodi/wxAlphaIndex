@@ -70,6 +70,7 @@ class WXDLLIMPEXP_ALPHAINDEX wxAlphaIndex: public wxWindow
         void RealizeLetters();
         void ClearLetters();
         void AddDefaultLetters();
+        const std::vector<wxString>& GetLetters();
 
     protected:
         void Init();
