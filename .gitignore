@@ -1,4 +1,5 @@
 /buildcb
 /lib/*
 !/lib/folder.txt
+/samples/resource.rc
 
