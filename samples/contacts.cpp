@@ -1,16 +1,12 @@
 /////////////////////////////////////////////////////////////////////////////
-// Name:        samples/richtext/richtext.cpp
-// Purpose:     wxWidgets rich text editor sample
-// Author:      Julian Smart
+// Name:        contacts.cpp
+// Purpose:     wxWidgets wxAlphaIndex sample
+// Author:
 // Modified by:
-// Created:     2005-10-02
-// Copyright:   (c) Julian Smart
+// Created:     2016-06-07
+// Copyright:
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
-
-// ============================================================================
-// declarations
-// ============================================================================
 
 // ----------------------------------------------------------------------------
 // headers
