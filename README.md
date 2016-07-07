@@ -1,6 +1,6 @@
 ## wxAlphaIndex
 
-This is a small generic wxWidgets generic control that shows a vertical column of letters.  By itself it doesn't do much but it would ordinarily be paired with another control such as a listbox.  The idea is that clicking a letter should result in some action on the list control.  You might have seem a similar control in android apps:
+This is a small generic wxWidgets generic control that shows a vertical column of letters.  By itself it doesn't do much, but it would ordinarily be paired with another control such as a listbox.  The idea is that clicking a letter should result in some action on the list control.  You might have seem a similar control in android apps:
 
 ![Android example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/android.jpg "Android example") 
 
@@ -19,9 +19,9 @@ This is a small generic wxWidgets generic control that shows a vertical column o
  + text color
 
 ### Screenshots
+![contacts example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/contacts.png "contacts example")
 ![Listbox example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/list.png "Listbox example") 
 ![panel example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/panel.png "panel example")
-![contacts example](https://github.com/NewPagodi/wxAlphaIndex/blob/master/docs/contacts.png "contacts example")
  
 ### Requirements
 * wxWidgets (3.0 or later)
